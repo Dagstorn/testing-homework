@@ -29,7 +29,6 @@ describe("Cart testplane", () => {
         await browser.url("http://localhost:3000/hw/store/cart");
 
         await expect(browser.$(".Cart-Table")).toBeDisplayed();
-        await browser.pause(2000);
     });
 
 
